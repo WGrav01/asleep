@@ -11,4 +11,4 @@ bot = discord.AutoShardedClient(intents=intents)
 
 @bot.event
 async def on_ready():
-    log.debug(f'Logged in successfully as {bot.user}')
+    log.debug(f"Logged in successfully as {bot.user}")
